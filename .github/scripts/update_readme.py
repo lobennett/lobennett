@@ -19,7 +19,7 @@ def calculate_streak(papers):
     if not read_dates:  # If no valid dates
         return 0
         
-    if (today - read_dates[0]).days > 1:  # If no paper read yesterday or today
+    if (today - read_dates[0]).days >= 1:  # If no paper read today
         return 0
     
     streak = 1
