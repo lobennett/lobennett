@@ -20,7 +20,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install pyyaml
+        run: pip install pyyaml pytz
 
       - name: Update README
         run: python .github/scripts/update_readme.py
