@@ -13,14 +13,15 @@ communities: ['OpenSource@Stanford', 'US-RSE']
 learning: ['go']
 
 # Scholarship
-days_read_consecutively: 4
+days_read_consecutively: 2
+papers_this_month: 2
 recent_reads:
-  - title: 'Paper Title 10'
-    authors: 'Author10, et al.'
-  - title: 'Paper Title 9'
-    authors: 'Author9, et al.'
-  - title: 'Paper Title 8'
-    authors: 'Author8, et al.'
-  - title: 'Paper Title 1'
-    authors: 'Author1, et al.'
+  - title: 'Cognitive control in media multitaskers.'
+    authors: - 'Ophir E'
+- 'Nass C'
+- 'Wagner AD'
+  - title: 'Whither Inhibition?'
+    authors: - 'Werner KM'
+- 'Inzlicht M'
+- 'Ford BQ'
 ```
