@@ -13,16 +13,14 @@ communities: ['OpenSource@Stanford', 'US-RSE']
 learning: ['go']
 
 # Scholarship
-days_read_consecutively: 1
+days_read_consecutively: 4
 recent_reads:
+  - title: 'Paper Title 10'
+    authors: 'Author10, et al.'
+  - title: 'Paper Title 9'
+    authors: 'Author9, et al.'
   - title: 'Paper Title 8'
     authors: 'Author8, et al.'
-  - title: 'Paper Title 7'
-    authors: 'Author7, et al.'
-  - title: 'Paper Title 6'
-    authors: 'Author6, et al.'
-  - title: 'Paper Title 5'
-    authors: 'Author5, et al.'
-  - title: 'Paper Title 4'
-    authors: 'Author4, et al.'
+  - title: 'Paper Title 1'
+    authors: 'Author1, et al.'
 ```
