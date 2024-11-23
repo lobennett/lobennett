@@ -30,6 +30,22 @@ def calculate_streak(papers):
     
     return streak
 
+def papers_this_month(papers):
+    """Calculate the number of papers read in the current month."""
+    if not papers:
+        return 0
+    
+    pst = pytz.timezone('America/Los_Angeles')
+    today = datetime.now(pst)
+    current_month = today.month
+    current_year = today.year
+    
+    monthly_papers = [p for p in papers 
+                     if datetime.strptime(p['read_on'], '%Y-%m-%d').month == current_month
+                     and datetime.strptime(p['read_on'], '%Y-%m-%d').year == current_year]
+    
+    return len(monthly_papers)
+
 def main():
     """
     Update the README.md file with the most recent papers from papers.yml.
@@ -46,6 +62,9 @@ def main():
     
     # Calculate streak
     streak = calculate_streak(papers_data["recent_reads"])
+    
+    # Calculate papers read this month
+    monthly_count = papers_this_month(papers_data["recent_reads"])
     
     recent_papers = [
         {"title": paper["title"], "authors": paper["authors"]} 
@@ -65,7 +84,9 @@ def main():
     after_scholarship = readme_content[scholarship_end:]
     
     # Format the papers as YAML
-    papers_yaml = "days_read_consecutively: " + str(streak) + "\nrecent_reads:\n"
+    papers_yaml = (f"days_read_consecutively: {streak}\n"
+                  f"papers_this_month: {monthly_count}\n"
+                  "recent_reads:\n")
     for paper in recent_papers:
         papers_yaml += f"  - title: {yaml.dump(paper['title'], default_style='\'').strip()}\n"
         papers_yaml += f"    authors: {yaml.dump(paper['authors'], default_style='\'').strip()}\n"
