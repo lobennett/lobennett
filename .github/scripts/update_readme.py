@@ -11,10 +11,9 @@ def calculate_streak(papers):
     pst = pytz.timezone('America/Los_Angeles')
     today = datetime.now(pst).date()
     
-    # Sort papers by read date and filter out future dates
+    # Sort papers by read date
     read_dates = [datetime.strptime(p['read_on'], '%Y-%m-%d').date() 
-                  for p in sorted(papers, key=lambda x: x['read_on'], reverse=True)
-                  if datetime.strptime(p['read_on'], '%Y-%m-%d').date() <= today]
+                  for p in sorted(papers, key=lambda x: x['read_on'], reverse=True)]
     
     if not read_dates:  # If no valid dates
         return 0
