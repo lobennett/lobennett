@@ -84,8 +84,8 @@ def main():
     after_scholarship = readme_content[scholarship_end:]
     
     # Format the papers as YAML
-    papers_yaml = (f"days_read_consecutively: {streak}\n"
-                  f"papers_this_month: {monthly_count}\n"
+    papers_yaml = (f"papers_this_month: {monthly_count}\n"
+                  f"days_read_consecutively: {streak}\n"
                   "recent_reads:\n")
     for i, paper in enumerate(recent_papers):
         papers_yaml += f"  - title: {yaml.dump(paper['title'], default_style='\'').strip()}\n"
