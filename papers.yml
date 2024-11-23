@@ -6,57 +6,27 @@
 # This list is public to hold myself accountable to reading regularly in the spirit of good scholarship.
 # Feel free to suggest papers by opening an issue!
 recent_reads:
-  - title: 'Paper Title 1'
-    authors: 'Author1, et al.'
-    journal: 'Journal Name'
-    year: 2024
-    doi: '10.xxxx/xxxxx'
-    read_on: '2024-01-01'
-  - title: 'Paper Title 2'
-    authors: 'Author2, et al.'
-    journal: 'Journal Name'
-    year: 2024
-    doi: '10.xxxx/xxxxx'
-    read_on: '2024-01-02'
-  - title: 'Paper Title 3'
-    authors: 'Author3, et al.'
-    journal: 'Journal Name'
-    year: 2024
-    doi: '10.xxxx/xxxxx'
-    read_on: '2024-01-03'
-  - title: 'Paper Title 4'
-    authors: 'Author4, et al.'
-    journal: 'Journal Name'
-    year: 2024
-    doi: '10.xxxx/xxxxx'
-    read_on: '2024-01-04'
-  - title: 'Paper Title 5'
-    authors: 'Author5, et al.'
-    journal: 'Journal Name'
-    year: 2024
-    doi: '10.xxxx/xxxxx'
-    read_on: '2024-01-05'
   - title: 'Paper Title 6'
     authors: 'Author6, et al.'
     journal: 'Journal Name'
     year: 2024
     doi: '10.xxxx/xxxxx'
-    read_on: '2024-01-06'
+    read_on: '2024-11-19'
   - title: 'Paper Title 7'
     authors: 'Author7, et al.'
     journal: 'Journal Name'
     year: 2024
     doi: '10.xxxx/xxxxx'
-    read_on: '2024-01-07'
+    read_on: '2024-11-21'
   - title: 'Paper Title 8'
     authors: 'Author8, et al.'
     journal: 'Journal Name'
     year: 2024
     doi: '10.xxxx/xxxxx'
-    read_on: '2024-11-23'
+    read_on: '2024-11-22'
   - title: 'Paper Title 9'
     authors: 'Author9, et al.'
     journal: 'Journal Name'
     year: 2024
     doi: '10.xxxx/xxxxx'
-    read_on: '2024-11-24'
+    read_on: '2024-11-23'
