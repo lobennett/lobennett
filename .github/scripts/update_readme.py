@@ -24,7 +24,7 @@ def main():
     yaml_end = readme_content.find("```", readme_content.find("```yaml") + 7)
 
     # Format the paper titles as YAML
-    papers_yaml = "\n  recent_reads: " + str(recent_titles).replace("'", '"')
+    papers_yaml = "\nrecent_reads: " + str(recent_titles).replace("'", '"') + "\n"
 
     # Insert the papers list before the end of the YAML block
     new_content = readme_content[:yaml_end] + papers_yaml + readme_content[yaml_end:]
