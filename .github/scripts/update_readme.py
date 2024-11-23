@@ -53,17 +53,22 @@ def main():
     with open("README.md", "r") as file:
         readme_content = file.read()
 
-    # Find the end of the YAML block
-    yaml_end = readme_content.find("```", readme_content.find("```yaml") + 7)
-
+    # Find the YAML block boundaries
+    yaml_start = readme_content.find("```yaml") + 7
+    yaml_end = readme_content.find("```", yaml_start)
+    
+    # Get the content before and after the YAML block
+    before_yaml = readme_content[:yaml_start]
+    after_yaml = readme_content[yaml_end:]
+    
     # Format the papers as YAML using yaml.dump for proper YAML formatting
     papers_yaml = "\ndays_read_consecutively: " + str(streak) + "\nrecent_reads:\n"
     for paper in recent_papers:
-        papers_yaml += f"  - title: {yaml.dump(paper['title'], default_style='\"').strip()}\n"
-        papers_yaml += f"    authors: {yaml.dump(paper['authors'], default_style='\"').strip()}\n"
+        papers_yaml += f"  - title: {yaml.dump(paper['title'], default_style='\'').strip()}\n"
+        papers_yaml += f"    authors: {yaml.dump(paper['authors'], default_style='\'').strip()}\n"
 
-    # Insert the papers list before the end of the YAML block
-    new_content = readme_content[:yaml_end] + papers_yaml + readme_content[yaml_end:]
+    # Combine all parts with the new YAML content
+    new_content = before_yaml + papers_yaml + after_yaml
 
     # Write updated README
     with open("README.md", "w") as file:
