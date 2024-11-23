@@ -6,27 +6,15 @@
 # This list is public to hold myself accountable to reading regularly in the spirit of good scholarship.
 # Feel free to suggest papers by opening an issue!
 recent_reads:
-  - title: 'Paper Title 1'
-    authors: 'Author1, et al.'
-    journal: 'Journal Name'
-    year: 2024
-    doi: '10.xxxx/xxxxx'
-    read_on: '2024-11-20'
-  - title: 'Paper Title 8'
-    authors: 'Author8, et al.'
-    journal: 'Journal Name'
-    year: 2024
-    doi: '10.xxxx/xxxxx'
-    read_on: '2024-11-21'
-  - title: 'Paper Title 9'
-    authors: 'Author9, et al.'
-    journal: 'Journal Name'
-    year: 2024
-    doi: '10.xxxx/xxxxx'
+  - title: 'Whither Inhibition?'
+    authors: ['Werner KM', 'Inzlicht M', 'Ford BQ']
+    journal: 'Curr Dir Psychol Sci'
+    year: 2022
+    doi: '10.1177/09637214221095848'
     read_on: '2024-11-22'
-  - title: 'Paper Title 10'
-    authors: 'Author10, et al.'
-    journal: 'Journal Name'
-    year: 2024
-    doi: '10.xxxx/xxxxx'
+  - title: 'Cognitive control in media multitaskers.'
+    authors: ['Ophir E', 'Nass C', 'Wagner AD']
+    journal: 'Proc Natl Acad Sci U S A'
+    year: 2009
+    doi: '10.1073/pnas.0903620106'
     read_on: '2024-11-23'
