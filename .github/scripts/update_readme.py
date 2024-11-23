@@ -10,11 +10,14 @@ def main():
     with open("papers.yml", "r") as file:
         papers_data = yaml.safe_load(file)
 
-    # Get the 5 most recent paper titles, sorted by read_on date from most recent to least
+    # Get the 5 most recent papers with title and authors
     sorted_papers = sorted(
         papers_data["recent_reads"], key=lambda x: x["read_on"], reverse=True
     )
-    recent_titles = [paper["title"] for paper in sorted_papers[:5]]
+    recent_papers = [
+        {"title": paper["title"], "authors": paper["authors"]} 
+        for paper in sorted_papers[:5]
+    ]
 
     # Read current README
     with open("README.md", "r") as file:
@@ -23,8 +26,11 @@ def main():
     # Find the end of the YAML block
     yaml_end = readme_content.find("```", readme_content.find("```yaml") + 7)
 
-    # Format the paper titles as YAML
-    papers_yaml = "\nrecent_reads: " + str(recent_titles).replace("'", '"') + "\n"
+    # Format the papers as YAML using yaml.dump for proper YAML formatting
+    papers_yaml = "\nrecent_reads:\n"
+    for paper in recent_papers:
+        papers_yaml += f"  - title: {yaml.dump(paper['title'], default_style='\"').strip()}\n"
+        papers_yaml += f"    authors: {yaml.dump(paper['authors'], default_style='\"').strip()}\n"
 
     # Insert the papers list before the end of the YAML block
     new_content = readme_content[:yaml_end] + papers_yaml + readme_content[yaml_end:]
