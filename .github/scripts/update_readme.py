@@ -87,9 +87,12 @@ def main():
     papers_yaml = (f"days_read_consecutively: {streak}\n"
                   f"papers_this_month: {monthly_count}\n"
                   "recent_reads:\n")
-    for paper in recent_papers:
+    for i, paper in enumerate(recent_papers):
         papers_yaml += f"  - title: {yaml.dump(paper['title'], default_style='\'').strip()}\n"
-        papers_yaml += f"    authors: {yaml.dump(paper['authors'], default_flow_style=True)}\n"
+        if i == len(recent_papers) - 1:
+            papers_yaml += f"    authors: {yaml.dump(paper['authors'], default_flow_style=True)}"
+        else:
+            papers_yaml += f"    authors: {yaml.dump(paper['authors'], default_flow_style=True).strip()}\n"
 
     # Combine all parts with the new content
     new_content = before_scholarship + papers_yaml + after_scholarship
