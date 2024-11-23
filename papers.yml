@@ -48,3 +48,9 @@ recent_reads:
     year: 2024
     doi: '10.xxxx/xxxxx'
     read_on: '2024-01-07'
+  - title: 'Paper Title 8'
+    authors: 'Author8, et al.'
+    journal: 'Journal Name'
+    year: 2024
+    doi: '10.xxxx/xxxxx'
+    read_on: '2024-11-23'
