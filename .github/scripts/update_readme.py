@@ -57,7 +57,7 @@ def main():
     yaml_end = readme_content.find("```", readme_content.find("```yaml") + 7)
 
     # Format the papers as YAML using yaml.dump for proper YAML formatting
-    papers_yaml = "\ndays_read_consecutively: " + str(streak) + "\n\nrecent_reads:\n"
+    papers_yaml = "\ndays_read_consecutively: " + str(streak) + "\nrecent_reads:"
     for paper in recent_papers:
         papers_yaml += f"  - title: {yaml.dump(paper['title'], default_style='\"').strip()}\n"
         papers_yaml += f"    authors: {yaml.dump(paper['authors'], default_style='\"').strip()}\n"
