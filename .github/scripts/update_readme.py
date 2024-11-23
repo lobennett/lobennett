@@ -89,9 +89,7 @@ def main():
                   "recent_reads:\n")
     for paper in recent_papers:
         papers_yaml += f"  - title: {yaml.dump(paper['title'], default_style='\'').strip()}\n"
-        papers_yaml += f"    authors: {yaml.dump(paper['authors'], default_flow_style=True)}"
-        if paper != recent_papers[-1]: 
-            papers_yaml += "\n"
+        papers_yaml += f"    authors: {yaml.dump(paper['authors'], default_flow_style=True)}\n"
 
     # Combine all parts with the new content
     new_content = before_scholarship + papers_yaml + after_scholarship
