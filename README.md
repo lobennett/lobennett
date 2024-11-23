@@ -18,8 +18,6 @@ papers_this_month: 2
 recent_reads:
   - title: 'Cognitive control in media multitaskers.'
     authors: [Ophir E, Nass C, Wagner AD]
-
   - title: 'Whither Inhibition?'
     authors: [Werner KM, Inzlicht M, Ford BQ]
-
 ```
