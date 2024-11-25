@@ -12,16 +12,16 @@ def calculate_streak(papers):
     pst = pytz.timezone("America/Los_Angeles")
     today = datetime.now(pst).date()
 
-    # Sort papers by read date
-    read_dates = [
-        datetime.strptime(p["read_on"], "%Y-%m-%d").date()
-        for p in sorted(papers, key=lambda x: x["read_on"], reverse=True)
-    ]
+    # Extract unique read dates and sort them in descending order
+    read_dates = sorted(
+        {datetime.strptime(p["read_on"], "%Y-%m-%d").date() for p in papers},
+        reverse=True,
+    )
 
     if not read_dates:  # If no valid dates
         return 0
 
-    # If most recent paper is not from today, streak is broken
+    # If the most recent paper is not from today, streak is broken
     if read_dates[0] != today:
         return 0
 
@@ -99,15 +99,10 @@ def main():
         "recent_reads:\n"
     )
     for i, paper in enumerate(recent_papers):
-        papers_yaml += (
-            f"  - title: {yaml.dump(paper['title'], default_style='\'').strip()}\n"
+        papers_yaml += f"  - title: '{paper['title']}'\n"
+        papers_yaml += f"    authors: {paper['authors']}" + (
+            "\n" if i < len(recent_papers) - 1 else ""
         )
-        if i == len(recent_papers) - 1:
-            papers_yaml += (
-                f"    authors: {yaml.dump(paper['authors'], default_flow_style=True)}"
-            )
-        else:
-            papers_yaml += f"    authors: {yaml.dump(paper['authors'], default_flow_style=True).strip()}\n"
 
     # Combine all parts with the new content
     new_content = before_scholarship + papers_yaml + after_scholarship
