@@ -24,3 +24,9 @@ recent_reads:
     year: 2002
     doi: '10.1146/annurev.psych.53.100901.135114'
     read_on: '2024-11-24'
+  - title: 'The seven sins of memory. Insights from psychology and cognitive neuroscience.'
+    authors: ['Schacter DL']
+    journal: 'Am Psychol'
+    year: 1999
+    pmid: '10199218'
+    read_on: '2024-11-24'
