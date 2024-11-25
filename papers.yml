@@ -18,3 +18,9 @@ recent_reads:
     year: 2009
     doi: '10.1073/pnas.0903620106'
     read_on: '2024-11-23'
+  - title: 'Episodic memory: from mind to brain.'
+    authors: ['Tulving E']
+    journal: 'Annu Rev Psychol'
+    year: 2002
+    doi: '10.1146/annurev.psych.53.100901.135114'
+    read_on: '2024-11-24'
