@@ -14,8 +14,13 @@ learning: ['go']
 
 # Scholarship
 papers_this_month: 2
-days_read_consecutively: 2
+papers_this_month: 4
+days_read_consecutively: 1
 recent_reads:
+  - title: 'Episodic memory: from mind to brain.'
+    authors: [Tulving E]
+  - title: 'The seven sins of memory. Insights from psychology and cognitive neuroscience.'
+    authors: [Schacter DL]
   - title: 'Cognitive control in media multitaskers.'
     authors: [Ophir E, Nass C, Wagner AD]
   - title: 'Whither Inhibition?'
