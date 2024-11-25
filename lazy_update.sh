@@ -7,6 +7,6 @@ git add papers.yml
 
 git commit -m "$commit_msg"
 
-git push origin main
+git push origin main --force
 
 echo "Successfully pushed papers.yml update!"

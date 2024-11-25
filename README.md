@@ -13,7 +13,6 @@ communities: ['OpenSource@Stanford', 'US-RSE']
 learning: ['go']
 
 # Scholarship
-papers_this_month: 2
 papers_this_month: 4
 days_read_consecutively: 1
 recent_reads:
