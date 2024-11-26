@@ -13,14 +13,16 @@ communities: ['OpenSource@Stanford', 'US-RSE']
 learning: ['go']
 
 # Scholarship
-papers_this_month: 4
-days_read_consecutively: 3
+papers_this_month: 8
+days_read_consecutively: 4
 recent_reads:
-  - title: 'Episodic memory: from mind to brain.'
-    authors: ['Tulving E']
-  - title: 'The seven sins of memory. Insights from psychology and cognitive neuroscience.'
+  - title: 'The cognitive neuroscience of memory: perspectives from neuroimaging research.'
     authors: ['Schacter DL']
-  - title: 'Cognitive control in media multitaskers.'
-    authors: ['Ophir E', 'Nass C', 'Wagner AD']
-  - title: 'Whither Inhibition?'
-    authors: ['Werner KM', 'Inzlicht M', 'Ford BQ']```
+  - title: 'The seven sins of memory: an update.'
+    authors: ['Schacter DL']
+  - title: 'Hippocampal and neocortical contributions to memory: advances in the complementary learning systems framework.'
+    authors: ["O'Reilly RC", 'Norman KA']
+  - title: 'The organization of memory. A parallel distributed processing perspective.'
+    authors: ['McClelland JL']
+  - title: 'Episodic memory: from mind to brain.'
+    authors: ['Tulving E']```
