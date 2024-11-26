@@ -30,3 +30,9 @@ recent_reads:
     year: 1999
     pmid: '10199218'
     read_on: '2024-11-24'
+  - title: 'The cognitive neuroscience of memory: perspectives from neuroimaging research.'
+    authors: ['Schacter DL']
+    journal: 'Philos Trans R Soc Lond B Biol Sci'
+    year: 1997
+    pmid: '9415920'
+    read_on: '2024-11-25'
