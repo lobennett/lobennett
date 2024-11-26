@@ -36,3 +36,21 @@ recent_reads:
     year: 1997
     pmid: '9415920'
     read_on: '2024-11-25'
+  - title: 'The seven sins of memory: an update.'
+    authors: ['Schacter DL']
+    journal: 'Memory'
+    year: 2022
+    doi: '10.1080/09658211.2021.1873391'
+    read_on: '2024-11-25'
+  - title: 'Hippocampal and neocortical contributions to memory: advances in the complementary learning systems framework.'
+    authors: ["O'Reilly RC", 'Norman KA']
+    journal: 'Trends Cogn Sci'
+    year: 2002
+    pmid: '12475710'
+    read_on: '2024-11-25'
+  - title: 'The organization of memory. A parallel distributed processing perspective.'
+    authors: ['McClelland JL']
+    journal: 'Rev Neurol (Paris)'
+    year: 1994
+    pmid: '7754293'
+    read_on: '2024-11-25'
