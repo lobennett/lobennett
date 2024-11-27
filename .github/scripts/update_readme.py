@@ -100,7 +100,10 @@ def main():
     )
     for i, paper in enumerate(recent_papers):
         papers_yaml += f"  - title: '{paper['title']}'\n"
-        papers_yaml += f"    authors: {paper['authors']}" + (
+        authors = paper["authors"]
+        if len(authors) > 3:
+            authors = authors[:3] + ["et al."]
+        papers_yaml += f"    authors: {authors}" + (
             "\n" if i < len(recent_papers) - 1 else ""
         )
 
