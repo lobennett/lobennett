@@ -55,8 +55,46 @@ recent_reads:
     pmid: '7754293'
     read_on: '2024-11-25'
   - title: 'Association of CSF Biomarkers With Hippocampal-Dependent Memory in Preclinical Alzheimer Disease.'
-    authors: ['Trelle AN', 'Carr VA', 'Wilson EN', 'Swarovski MS', 'Hunt MP', 'Toueg TN', 'Tran TT', 'Channappa D', 'Corso NK', 'Thieu MK', 'Jayakumar M', 'Nadiadwala A', 'Guo W', 'Tanner NJ', 'Bernstein JD', 'Litovsky CP', 'Guerin SA', 'Khazenzon AM', 'Harrison MB', 'Rutt BK', 'Deutsch GK', 'Chin FT', 'Davidzon GA', 'Hall JN', 'Sha SJ', 'Fredericks CA', 'Andreasson KI', 'Kerchner GA', 'Wagner AD', 'Mormino EC']
+    authors:
+      [
+        'Trelle AN',
+        'Carr VA',
+        'Wilson EN',
+        'Swarovski MS',
+        'Hunt MP',
+        'Toueg TN',
+        'Tran TT',
+        'Channappa D',
+        'Corso NK',
+        'Thieu MK',
+        'Jayakumar M',
+        'Nadiadwala A',
+        'Guo W',
+        'Tanner NJ',
+        'Bernstein JD',
+        'Litovsky CP',
+        'Guerin SA',
+        'Khazenzon AM',
+        'Harrison MB',
+        'Rutt BK',
+        'Deutsch GK',
+        'Chin FT',
+        'Davidzon GA',
+        'Hall JN',
+        'Sha SJ',
+        'Fredericks CA',
+        'Andreasson KI',
+        'Kerchner GA',
+        'Wagner AD',
+        'Mormino EC',
+      ]
     journal: 'Neurology'
     year: 2021
     pmid: '33408146'
     read_on: '2024-11-26'
+  - title: 'Learning and Memory: Humans'
+    authors: ['Neath I']
+    journal: 'Encyclopedia of psychology'
+    year: 2000
+    pmid: ''
+    read_on: '2024-11-27'
