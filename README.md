@@ -13,9 +13,11 @@ communities: ['OpenSource@Stanford', 'US-RSE']
 learning: ['go']
 
 # Scholarship
-papers_this_month: 10
-days_read_consecutively: 6
+papers_this_month: 11
+days_read_consecutively: 7
 recent_reads:
+  - title: 'Building memories: remembering and forgetting of verbal experiences as predicted by brain activity.'
+    authors: ['Wagner AD', 'Schacter DL', 'Rotte M', 'et al.']
   - title: 'Learning and Memory: Humans'
     authors: ['Neath I']
   - title: 'Association of CSF Biomarkers With Hippocampal-Dependent Memory in Preclinical Alzheimer Disease.'
@@ -23,6 +25,4 @@ recent_reads:
   - title: 'The cognitive neuroscience of memory: perspectives from neuroimaging research.'
     authors: ['Schacter DL']
   - title: 'The seven sins of memory: an update.'
-    authors: ['Schacter DL']
-  - title: 'Hippocampal and neocortical contributions to memory: advances in the complementary learning systems framework.'
-    authors: ["O'Reilly RC", 'Norman KA']```
+    authors: ['Schacter DL']```
