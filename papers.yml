@@ -98,3 +98,9 @@ recent_reads:
     year: 2000
     pmid: ''
     read_on: '2024-11-27'
+  - title: 'Building memories: remembering and forgetting of verbal experiences as predicted by brain activity.'
+    authors: ['Wagner AD', 'Schacter DL', 'Rotte M', 'Koutstaal W', 'Maril A', 'Dale AM', 'Rosen BR', 'Buckner RL']
+    journal: 'Science'
+    year: 1998
+    pmid: '9712582'
+    read_on: '2024-11-28'
