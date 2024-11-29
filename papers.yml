@@ -104,3 +104,9 @@ recent_reads:
     year: 1998
     pmid: '9712582'
     read_on: '2024-11-28'
+  - title: 'The variability puzzle in human memory.'
+    authors: ['Kahana MJ', 'Aggarwal EV', 'Phan TD']
+    journal: 'J Exp Psychol Learn Mem Cogn'
+    year: 2018
+    pmid: '29698051'
+    read_on: '2024-11-29'
