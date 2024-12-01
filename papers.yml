@@ -99,7 +99,17 @@ recent_reads:
     pmid: ''
     read_on: '2024-11-27'
   - title: 'Building memories: remembering and forgetting of verbal experiences as predicted by brain activity.'
-    authors: ['Wagner AD', 'Schacter DL', 'Rotte M', 'Koutstaal W', 'Maril A', 'Dale AM', 'Rosen BR', 'Buckner RL']
+    authors:
+      [
+        'Wagner AD',
+        'Schacter DL',
+        'Rotte M',
+        'Koutstaal W',
+        'Maril A',
+        'Dale AM',
+        'Rosen BR',
+        'Buckner RL',
+      ]
     journal: 'Science'
     year: 1998
     pmid: '9712582'
@@ -110,3 +120,9 @@ recent_reads:
     year: 2018
     pmid: '29698051'
     read_on: '2024-11-29'
+  - title: 'Computational Models of Event Memory'
+    authors: ['Cox GE', 'Shiffrin RM']
+    journal: 'The Oxford Handbook of Human Memory, Two Volume Pack: Foundations and Applications, Oxford Library of Psychology'
+    year: 2024
+    doi: '10.1093/oxfordhb/9780190917982.013.3'
+    read_on: '2024-11-30'
