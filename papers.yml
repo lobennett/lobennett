@@ -126,3 +126,16 @@ recent_reads:
     year: 2024
     doi: '10.1093/oxfordhb/9780190917982.013.3'
     read_on: '2024-11-30'
+  - title: 'Human Memory: A Proposed System and Its Control Processes'
+    authors: ['Atkinson R', 'Shiffrin R']
+    journal: 'Scientists Making a Difference: One Hundred Eminent Behavioral and Brain Scientists Talk about their Most Important Contributions'
+    pages: '115-118'
+    year: 2016
+    doi: ''
+    read_on: '2024-12-01'
+  - title: 'Laws of Human Memory'
+    authors: ['Kahana M', 'Diamond N', 'Ada A']
+    journal: 'OSF preprint'
+    year: 2022
+    doi: '10.31234/osf.io/aczu9'
+    read_on: '2024-12-01'
