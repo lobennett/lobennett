@@ -139,3 +139,9 @@ recent_reads:
     year: 2022
     doi: '10.31234/osf.io/aczu9'
     read_on: '2024-12-01'
+  - title: 'Evaluating brain parcellations using the distance-controlled boundary coefficient.'
+    authors: ['Zhi D', 'King M', 'Hernandez-Castillo CR', 'Diedrichsen J']
+    journal: 'Hum Brain Mapp'
+    year: 2022
+    pmid: '35451538'
+    read_on: '2024-12-02'
