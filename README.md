@@ -13,9 +13,11 @@ communities: ['OpenSource@Stanford', 'US-RSE']
 learning: ['go']
 
 # Scholarship
-papers_this_month: 2
-days_read_consecutively: 10
+papers_this_month: 3
+days_read_consecutively: 11
 recent_reads:
+  - title: 'Evaluating brain parcellations using the distance-controlled boundary coefficient.'
+    authors: ['Zhi D', 'King M', 'Hernandez-Castillo CR', 'et al.']
   - title: 'Human Memory: A Proposed System and Its Control Processes'
     authors: ['Atkinson R', 'Shiffrin R']
   - title: 'Laws of Human Memory'
@@ -23,6 +25,4 @@ recent_reads:
   - title: 'Computational Models of Event Memory'
     authors: ['Cox GE', 'Shiffrin RM']
   - title: 'The variability puzzle in human memory.'
-    authors: ['Kahana MJ', 'Aggarwal EV', 'Phan TD']
-  - title: 'Building memories: remembering and forgetting of verbal experiences as predicted by brain activity.'
-    authors: ['Wagner AD', 'Schacter DL', 'Rotte M', 'et al.']```
+    authors: ['Kahana MJ', 'Aggarwal EV', 'Phan TD']```
