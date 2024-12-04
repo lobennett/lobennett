@@ -145,3 +145,9 @@ recent_reads:
     year: 2022
     pmid: '35451538'
     read_on: '2024-12-02'
+  - title: 'Brain-wide functional connectivity artifactually inflates throughout functional magnetic resonance imaging scans.'
+    authors: ['Korponay C', 'Janes AC', 'Frederick BB']
+    journal: 'Nat Hum Behav'
+    year: 2024
+    pmid: '38898230'
+    read_on: '2024-12-03'
