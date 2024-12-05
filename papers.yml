@@ -151,3 +151,9 @@ recent_reads:
     year: 2024
     pmid: '38898230'
     read_on: '2024-12-03'
+  - title: 'Observing the transformation of experience into memory.'
+    authors: ['Paller KA', 'Wagner AD']
+    journal: 'Trends Cogn Sci'
+    year: 2002
+    pmid: '15866193'
+    read_on: '2024-12-04'
