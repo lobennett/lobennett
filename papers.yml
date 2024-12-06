@@ -157,3 +157,15 @@ recent_reads:
     year: 2002
     pmid: '15866193'
     read_on: '2024-12-04'
+  - title: 'Elements of episodic memory: lessons from 40 years of research.'
+    authors: ['Martin-Ordas G', 'Easton A']
+    journal: 'Philos Trans R Soc Lond B Biol Sci'
+    year: 2024
+    pmid: '39278247'
+    read_on: '2024-12-05'
+  - title: 'Cognitive neuroscience of episodic memory encoding.'
+    authors: ['Buckner RL', 'Logan J', 'Donaldson DI', 'Wheeler ME']
+    journal: 'Acta Psychol (Amst)'
+    year: 2000
+    pmid: '11194408'
+    read_on: '2024-12-05'
