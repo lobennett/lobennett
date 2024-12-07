@@ -169,3 +169,9 @@ recent_reads:
     year: 2000
     pmid: '11194408'
     read_on: '2024-12-05'
+  - title: 'Remembering the past to imagine the future: the prospective brain.'
+    authors: ['Schacter DL', 'Addis DR', 'Buckner RL']
+    journal: 'Nat Rev Neurosci'
+    year: 2007
+    pmid: '17700624'
+    read_on: '2024-12-06'
