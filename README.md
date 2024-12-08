@@ -13,16 +13,16 @@ communities: ['OpenSource@Stanford', 'US-RSE']
 learning: ['go']
 
 # Scholarship
-papers_this_month: 2
-days_read_consecutively: 10
+papers_this_month: 9
+days_read_consecutively: 16
 recent_reads:
-  - title: 'Human Memory: A Proposed System and Its Control Processes'
-    authors: ['Atkinson R', 'Shiffrin R']
-  - title: 'Laws of Human Memory'
-    authors: ['Kahana M', 'Diamond N', 'Ada A']
-  - title: 'Computational Models of Event Memory'
-    authors: ['Cox GE', 'Shiffrin RM']
-  - title: 'The variability puzzle in human memory.'
-    authors: ['Kahana MJ', 'Aggarwal EV', 'Phan TD']
-  - title: 'Building memories: remembering and forgetting of verbal experiences as predicted by brain activity.'
-    authors: ['Wagner AD', 'Schacter DL', 'Rotte M', 'et al.']```
+  - title: '"Memory of the future": an essay on the temporal organization of conscious awareness.'
+    authors: ['Ingvar DH']
+  - title: 'Remembering the past to imagine the future: the prospective brain.'
+    authors: ['Schacter DL', 'Addis DR', 'Buckner RL']
+  - title: 'Elements of episodic memory: lessons from 40 years of research.'
+    authors: ['Martin-Ordas G', 'Easton A']
+  - title: 'Cognitive neuroscience of episodic memory encoding.'
+    authors: ['Buckner RL', 'Logan J', 'Donaldson DI', 'et al.']
+  - title: 'Observing the transformation of experience into memory.'
+    authors: ['Paller KA', 'Wagner AD']```
