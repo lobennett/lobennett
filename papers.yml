@@ -181,3 +181,9 @@ recent_reads:
     year: 1985
     pmid: '3905726'
     read_on: '2024-12-07'
+  - title: 'Working Memory'
+    authors: ['Baddeley AD', 'Hitch G']
+    journal: 'Psychology of Learning and Motivation'
+    year: 1974
+    doi: '10.1016/S0079-7421(08)60452-1'
+    read_on: '2024-12-08'
