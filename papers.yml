@@ -187,3 +187,9 @@ recent_reads:
     year: 1974
     doi: '10.1016/S0079-7421(08)60452-1'
     read_on: '2024-12-08'
+  - title: 'An essay towards solving a problem in the doctrine of chances. 1763.'
+    authors: ['Bayes T']
+    journal: 'MD Comput'
+    year: 1991
+    pmid: '1857193'
+    read_on: '2024-12-09'
