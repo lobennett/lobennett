@@ -193,3 +193,9 @@ recent_reads:
     year: 1991
     pmid: '1857193'
     read_on: '2024-12-09'
+  - title: 'Basis of executive functions in fine-grained architecture of cortical and subcortical human brain networks.'
+    authors: ['Assem M', 'Shashidhara S', 'Glasser MF', 'Duncan J']
+    journal: 'Cereb Cortex'
+    year: 2024
+    pmid: '38244562'
+    read_on: '2024-12-10'
