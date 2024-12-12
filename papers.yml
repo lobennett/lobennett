@@ -199,3 +199,9 @@ recent_reads:
     year: 2024
     pmid: '38244562'
     read_on: '2024-12-10'
+  - title: 'The evolution of episodic memory.'
+    authors: ['Allen TA', 'Fortin NJ']
+    journal: 'Proc Natl Acad Sci U S A'
+    year: 2013
+    pmid: '23754432'
+    read_on: '2024-12-11'
