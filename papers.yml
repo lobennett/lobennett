@@ -205,3 +205,9 @@ recent_reads:
     year: 2013
     pmid: '23754432'
     read_on: '2024-12-11'
+  - title: 'How to never be wrong.'
+    authors: ['Gershman SJ']
+    journal: 'Psychon Bull Rev'
+    year: 2019
+    pmid: '29799092'
+    read_on: '2024-12-12'
