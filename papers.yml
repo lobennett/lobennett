@@ -211,3 +211,9 @@ recent_reads:
     year: 2019
     pmid: '29799092'
     read_on: '2024-12-12'
+  - title: 'The generalizability crisis.'
+    authors: ['Yarkoni T']
+    journal: 'Behav Brain Sci'
+    year: 2020
+    pmid: '33342451'
+    read_on: '2024-12-13'
