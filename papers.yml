@@ -217,3 +217,9 @@ recent_reads:
     year: 2020
     pmid: '33342451'
     read_on: '2024-12-13'
+  - title: 'SCIENTIFIC STANDARDS. Promoting an open research culture.'
+    authors: ['Nosek BA', 'Alter G', 'Banks GC', 'Borsboom D', 'Bowman SD', 'Breckler SJ', 'Buck S', 'Chambers CD', 'Chin G', 'Christensen G', 'Contestabile M', 'Dafoe A', 'Eich E', 'Freese J', 'Glennerster R', 'Goroff D', 'Green DP', 'Hesse B', 'Humphreys M', 'Ishiyama J', 'Karlan D', 'Kraut A', 'Lupia A', 'Mabry P', 'Madon TA', 'Malhotra N', 'Mayo-Wilson E', 'McNutt M', 'Miguel E', 'Paluck EL', 'Simonsohn U', 'Soderberg C', 'Spellman BA', 'Turitto J', 'VandenBos G', 'Vazire S', 'Wagenmakers EJ', 'Wilson R', 'Yarkoni T']
+    journal: 'Science'
+    year: 2015
+    pmid: '26113702'
+    read_on: '2024-12-14'
