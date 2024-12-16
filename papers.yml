@@ -223,3 +223,9 @@ recent_reads:
     year: 2015
     pmid: '26113702'
     read_on: '2024-12-14'
+  - title: 'The hippocampus as a predictive map.'
+    authors: ['Stachenfeld KL', 'Botvinick MM', 'Gershman SJ']
+    journal: 'Nat Neurosci'
+    year: 2017
+    pmid: '28967910'
+    read_on: '2024-12-15'
