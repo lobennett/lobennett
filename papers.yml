@@ -235,3 +235,9 @@ recent_reads:
     year: 2010
     pmid: '20227271'
     read_on: '2024-12-16'
+  - title: 'The Successor Representation: Its Computational Logic and Neural Substrates.'
+    authors: ['Gershman SJ']
+    journal: 'J Neurosci'
+    year: 2018
+    pmid: '30006364'
+    read_on: '2024-12-17'
