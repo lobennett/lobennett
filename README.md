@@ -13,16 +13,16 @@ communities: ['OpenSource@Stanford', 'US-RSE']
 learning: ['go']
 
 # Scholarship
-papers_this_month: 12
-days_read_consecutively: 19
+papers_this_month: 20
+days_read_consecutively: 27
 recent_reads:
-  - title: 'Basis of executive functions in fine-grained architecture of cortical and subcortical human brain networks.'
-    authors: ['Assem M', 'Shashidhara S', 'Glasser MF', 'et al.']
-  - title: 'An essay towards solving a problem in the doctrine of chances. 1763.'
-    authors: ['Bayes T']
-  - title: 'Working Memory'
-    authors: ['Baddeley AD', 'Hitch G']
-  - title: '"Memory of the future": an essay on the temporal organization of conscious awareness.'
-    authors: ['Ingvar DH']
-  - title: 'Remembering the past to imagine the future: the prospective brain.'
-    authors: ['Schacter DL', 'Addis DR', 'Buckner RL']```
+  - title: 'The response time paradox in functional magnetic resonance imaging analyses.'
+    authors: ['Mumford JA', 'Bissett PG', 'Jones HM', 'et al.']
+  - title: 'The Successor Representation: Its Computational Logic and Neural Substrates.'
+    authors: ['Gershman SJ']
+  - title: 'Learning latent structure: carving nature at its joints.'
+    authors: ['Gershman SJ', 'Niv Y']
+  - title: 'The hippocampus as a predictive map.'
+    authors: ['Stachenfeld KL', 'Botvinick MM', 'Gershman SJ']
+  - title: 'SCIENTIFIC STANDARDS. Promoting an open research culture.'
+    authors: ['Nosek BA', 'Alter G', 'Banks GC', 'et al.']```
