@@ -241,3 +241,9 @@ recent_reads:
     year: 2018
     pmid: '30006364'
     read_on: '2024-12-17'
+  - title: 'The response time paradox in functional magnetic resonance imaging analyses.'
+    authors: ['Mumford JA', 'Bissett PG', 'Jones HM', 'Shim S', 'Rios JAH', 'Poldrack RA']
+    journal: 'Nat Hum Behav'
+    year: 2024
+    pmid: '37996498'
+    read_on: '2024-12-18'
