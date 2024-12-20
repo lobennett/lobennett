@@ -247,3 +247,9 @@ recent_reads:
     year: 2024
     pmid: '37996498'
     read_on: '2024-12-18'
+  - title: 'Mind Games: Game Engines as an Architecture for Intuitive Physics.'
+    authors: ['Ullman TD', 'Spelke E', 'Battaglia P', 'Tenenbaum JB']
+    journal: 'Trends Cogn Sci'
+    year: 2017
+    pmid: '28655498'
+    read_on: '2024-12-19'
