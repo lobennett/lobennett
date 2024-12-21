@@ -14,7 +14,7 @@ learning: ['go']
 
 # Scholarship
 papers_this_month: 21
-days_read_consecutively: 28
+days_read_consecutively: 0
 recent_reads:
   - title: 'Mind Games: Game Engines as an Architecture for Intuitive Physics.'
     authors: ['Ullman TD', 'Spelke E', 'Battaglia P', 'et al.']
